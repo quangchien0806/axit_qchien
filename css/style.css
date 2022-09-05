@@ -8,7 +8,8 @@
   position: fixed;
   z-index: 9999;
   background-color: #000000;
-  width: 100%; }
+  width: 100%;
+  top: 0 !important; }
   .header__inner {
     display: flex;
     align-items: center;
@@ -244,7 +245,7 @@ button {
   font-weight: 400; }
 
 .navbar {
-  background: url("/img/background.png") no-repeat;
+  background: url("https://res.cloudinary.com/easy-toeic/image/upload/v1662390439/305426082_1426060294545782_1412836594003510857_n_rtyama.jpg") no-repeat;
   background-size: cover; }
   .navbar__inner {
     padding: 18.75rem 0 13.5rem 0;
@@ -354,14 +355,15 @@ button {
     flex-wrap: nowrap;
     flex-direction: column; }
     .features__left li {
-      background-color: #ff8b38;
+      background-color: #333333;
       border-bottom: 0.1rem solid #bdbdbd; }
       .features__left li:first-child {
         border-radius: 0.4rem 0.4rem 0 0; }
       .features__left li:last-child {
         border-radius: 0 0 0.4rem 0.4rem; }
       .features__left li.active {
-        background-color: #333333; }
+        background-color: #333333;
+        background-color: #ff8b38; }
   .features__mid {
     display: none;
     width: 46%; }
@@ -457,7 +459,7 @@ button {
     top: calc(100% + 3rem); }
 
 .design {
-  background: url("/img/bg2.png") no-repeat;
+  background: url("https://res.cloudinary.com/easy-toeic/image/upload/v1662390432/302351682_764117488283750_9066398260990235109_n_u0cp8v.jpg") no-repeat;
   background-size: cover;
   padding-top: 6.5rem;
   padding-bottom: 6rem; }
@@ -470,32 +472,32 @@ button {
       font-family: "Raleway", sans-serif;
       font-weight: 100; }
 
-.concact {
+.contact {
   margin-top: 10rem;
   margin-bottom: 8rem; }
-  .concact__inner {
+  .contact__inner {
     text-align: center; }
-    .concact__inner .section__title {
+    .contact__inner .section__title {
       color: #212121; }
-  .concact .form--login .btn-download {
+  .contact .form--login .btn-download {
     background-color: #ff9b51;
     border: none;
     border-radius: 0.4rem; }
-    .concact .form--login .btn-download:hover {
+    .contact .form--login .btn-download:hover {
       background-color: #333333; }
-  .concact .form--cmt {
+  .contact .form--cmt {
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
     flex-wrap: nowrap;
     flex-direction: row; }
-    .concact .form--cmt-left {
+    .contact .form--cmt-left {
       width: 47%; }
-      .concact .form--cmt-left input:last-child {
+      .contact .form--cmt-left input:last-child {
         padding-top: 3.5rem; }
-    .concact .form--cmt-right {
+    .contact .form--cmt-right {
       width: 47%; }
-      .concact .form--cmt-right textarea {
+      .contact .form--cmt-right textarea {
         height: 18rem;
         padding-top: 3.5rem;
         border: none;
@@ -562,7 +564,7 @@ button {
   .process {
     margin-top: 6rem;
     margin-bottom: 6rem; }
-  .concact {
+  .contact {
     margin-top: 8rem;
     margin-bottom: 6rem; } }
 
@@ -576,15 +578,15 @@ button {
   .process-child {
     width: 100%;
     margin-bottom: 2rem; }
-  .concact .form--cmt {
+  .contact .form--cmt {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: nowrap;
     flex-direction: column; }
-    .concact .form--cmt-left {
+    .contact .form--cmt-left {
       width: 100%; }
-    .concact .form--cmt-right {
+    .contact .form--cmt-right {
       width: 100%; } }
 
 .footer {

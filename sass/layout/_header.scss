@@ -3,6 +3,7 @@
   z-index: 9999;
   background-color: $color-black;
   width: 100%;
+  top: 0 !important;
   &__inner {
     @include flex(center, space-between);
     padding: 2.4rem 0;

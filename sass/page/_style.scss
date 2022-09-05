@@ -6,7 +6,8 @@
   font-weight: 400;
 }
 .navbar {
-  background: url("/img/background.png") no-repeat;
+  background: url("https://res.cloudinary.com/easy-toeic/image/upload/v1662390439/305426082_1426060294545782_1412836594003510857_n_rtyama.jpg")
+    no-repeat;
   background-size: cover;
   &__inner {
     padding: 18.75rem 0 13.5rem 0;
@@ -116,7 +117,7 @@
   &__left {
     @include flex(center, center, nowrap, column);
     li {
-      background-color: $color-orange;
+      background-color: $color-light-black;
       border-bottom: 0.1rem solid $color-grey;
       &:first-child {
         border-radius: 0.4rem 0.4rem 0 0;
@@ -126,6 +127,7 @@
       }
       &.active {
         background-color: $color-light-black;
+        background-color: $color-orange;
       }
     }
   }
@@ -220,7 +222,8 @@
   }
 }
 .design {
-  background: url("/img/bg2.png") no-repeat;
+  background: url("https://res.cloudinary.com/easy-toeic/image/upload/v1662390432/302351682_764117488283750_9066398260990235109_n_u0cp8v.jpg")
+    no-repeat;
   background-size: cover;
   padding-top: 6.5rem;
   padding-bottom: 6rem;
@@ -240,7 +243,7 @@
     }
   }
 }
-.concact {
+.contact {
   margin-top: 10rem;
   margin-bottom: 8rem;
   &__inner {
