@@ -1,0 +1,86 @@
+@media (max-width: 992px) {
+  .features__mid {
+    width: 40%;
+  }
+}
+@media (max-width: 768px) {
+  .navbar {
+    &__inner {
+      padding: 14.75rem 0 9.5rem;
+      @include flex(center, space-between, nowrap, column);
+    }
+    &__left {
+      width: 100%;
+      margin-bottom: 3rem;
+    }
+    &__right {
+      width: 100%;
+    }
+  }
+  .features {
+    padding: 8rem 0 6rem 0;
+    &__inner {
+      @include flex(center, space-between, nowrap, column);
+      &--img {
+        width: 100%;
+        margin-bottom: 2rem;
+        @include flex(center, center);
+      }
+    }
+    &__left {
+      @include flex(center, center, nowrap, row);
+      margin-bottom: 2rem;
+      li {
+        border-bottom: none;
+        border-right: 0.1rem solid $color-grey;
+        &:first-child {
+          border-radius: 0.4rem 0 0 0.4rem;
+        }
+        &:last-child {
+          border-radius: 0 0.4rem 0.4rem 0;
+        }
+      }
+    }
+    &__mid {
+      width: 100%;
+      margin-bottom: 2rem;
+    }
+    &__right {
+      width: 100%;
+      margin-bottom: 2rem;
+    }
+  }
+  .process {
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+  }
+  .concact {
+    margin-top: 8rem;
+    margin-bottom: 6rem;
+  }
+}
+@media (max-width: 576px) {
+  .process {
+    &__list {
+      @include flex(center, center, nowrap, column);
+    }
+    &-child {
+      width: 100%;
+      margin-bottom: 2rem;
+    }
+  }
+  .concact {
+    .form--cmt {
+      @include flex(center, center, nowrap, column);
+      &-left {
+        width: 100%;
+      }
+      &-right {
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media (max-width: 575px) {
+}

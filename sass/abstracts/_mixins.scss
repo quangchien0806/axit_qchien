@@ -1,0 +1,34 @@
+// size
+@mixin size($width, $height: $width) {
+  width: $width;
+  height: $height;
+}
+
+// absoluteFull
+@mixin absoluteFull() {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+// flexBox
+@mixin fCenter() {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+// flexBox
+@mixin flex(
+  $align: flex-start,
+  $justify: flex-start,
+  $wrap: nowrap,
+  $dir: row
+) {
+  display: flex;
+  align-items: $align;
+  justify-content: $justify;
+  flex-wrap: $wrap;
+  flex-direction: $dir;
+}
